@@ -148,7 +148,8 @@ PRODUCT_PACKAGES += \
     CMUpdater \
     CMAccount \
     CMHome \
-    CyanogenSetupWizard
+    CyanogenSetupWizard \
+    CameraNext
 
 # CM Hardware Abstraction Framework
 PRODUCT_PACKAGES += \
