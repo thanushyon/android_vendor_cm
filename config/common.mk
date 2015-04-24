@@ -8,7 +8,7 @@ TARGET_BOOTANIMATION_SIZE := $(shell \
   else \
     echo $(TARGET_SCREEN_HEIGHT); \
   fi )
-
+endif
 # get a sorted list of the sizes
 bootanimation_sizes := $(subst .zip,, $(shell ls vendor/cm/prebuilt/common/bootanimation))
 bootanimation_sizes := $(shell echo -e $(subst $(space),'\n',$(bootanimation_sizes)) | sort -rn)
