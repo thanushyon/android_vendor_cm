@@ -145,6 +145,12 @@ PRODUCT_PACKAGES += \
     CyanogenSetupWizard \
     CameraNext
 
+# CM Platform Library
+PRODUCT_PACKAGES += \
+    org.cyanogenmod.platform-res \
+    org.cyanogenmod.platform \
+    org.cyanogenmod.platform.xml
+
 # CM Hardware Abstraction Framework
 PRODUCT_PACKAGES += \
     org.cyanogenmod.hardware \
