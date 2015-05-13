@@ -330,10 +330,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 -include vendor/cyngn/product.mk
 
 $(call prepend-product-if-exists, vendor/extra/product.mk)
-
-ifeq (true,$(GRAPHITE_OPTS)) OPT1 := (graphite) endif endif endif 
-ifeq (true,$(STRICT_ALIASING)) OPT2 := (strict) endif ifeq 
-(true,$(USE_O3_OPTIMIZATIONS)) OPT3 := (O3) endif ifeq 
-(true,$(KRAIT_TUNINGS)) OPT4 := (krait) endif ifeq 
-(true,$(ENABLE_GCCONLY)) OPT5 := (gcconly)
-endif
