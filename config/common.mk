@@ -98,7 +98,7 @@ PRODUCT_COPY_FILES +=  \
 
 # SuperSU
 PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/common/supersu.zip:system/addon.d/supersu.zip \
+    vendor/cm/prebuilt/common/supersu.zip:install:system/supersu.zip \
     vendor/cm/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
 
 # Enable SIP+VoIP on all targets
